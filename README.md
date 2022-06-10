@@ -142,6 +142,8 @@ Si todo ha salido bien nos saldría algo así, con esto ya podriamos bajarnos el
   
 ![dockerhub](https://user-images.githubusercontent.com/91748294/173107335-ffc8d653-b1ef-41c8-a41d-19b3842ec028.png)
 
+(Link en el annexo)
+  
 </div>
 
 <div id= 'con'>
