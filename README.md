@@ -82,9 +82,23 @@ Con todo esto, vamos a la terminal y nos situamos en el directorio donde se encu
 ```
   sudo docker-compose up -d
   ```
+![compose](https://user-images.githubusercontent.com/91748294/173106349-04941085-4447-4941-b9f0-cf1d588381e3.png)
 
 Ahora podremos ir a las páginas. Si vamos al localhost:8080 veremos como se despliega la página principal y como podemos registarnos y loguearnos.
   
+![index](https://user-images.githubusercontent.com/91748294/173106412-3d248665-45f5-4385-896a-7a1cd90e4b15.png)
+  
+![registro](https://user-images.githubusercontent.com/91748294/173106450-948f10e3-dab7-4200-ace3-0b1f8397507f.png)
+
+![inicio](https://user-images.githubusercontent.com/91748294/173106495-8c896143-4c8b-4e8b-8901-73646b9d80ad.png)
+
+![home](https://user-images.githubusercontent.com/91748294/173106540-4fabeffc-f44a-4eed-9fda-ff48f2d4e8c3.png)
+
+ También si vamos a localhost:8081 podremos loguearnos en el phpmyadmin (con el usuario y contraseña que definimos en el docker-compose) y mirar la base de datos.
+  
+![userphp](https://user-images.githubusercontent.com/91748294/173107046-ff6ff248-0e54-4882-a98b-07300c2db1b5.png)
+
+![basesphp](https://user-images.githubusercontent.com/91748294/173107131-e479b107-67e7-48d7-8c48-f3635bf8ef5b.png)
   
 </div>
 
@@ -111,18 +125,23 @@ Y ejecutamos el comando para monstar la imagen:
 
   ```
   docker build -t mely1h1r/gestionproyectos-melissa-rodriguez-hernandez . 
+ 
   ```
+
+![build](https://user-images.githubusercontent.com/91748294/173107228-7cd71352-1736-4661-afbf-f061db807805.png)
   
 Ahora procederemos a subirlo al dockerHub
   
   ```
-docker push 
+docker push mely1h1r/gestionproyectos-melissa-rodriguez-hernandez
   ```
-
+ 
+![push](https://user-images.githubusercontent.com/91748294/173107314-8dcd1f5f-9cb8-4e17-a182-c297c3040f1a.png)
   
 Si todo ha salido bien nos saldría algo así, con esto ya podriamos bajarnos el contenedor en cualquier ordenador y ejecutarlo:
   
-  
+![dockerhub](https://user-images.githubusercontent.com/91748294/173107335-ffc8d653-b1ef-41c8-a41d-19b3842ec028.png)
+
 </div>
 
 <div id= 'con'>
